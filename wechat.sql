@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50711
 File Encoding         : 65001
 
-Date: 2017-07-18 17:56:42
+Date: 2017-07-18 23:33:49
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,6 +24,7 @@ CREATE TABLE `active` (
   `title` varchar(100) NOT NULL COMMENT '标题',
   `cate_id` int(11) DEFAULT NULL COMMENT '分类id',
   `describe` varchar(255) DEFAULT NULL COMMENT '描述',
+  `thumbnail` varchar(255) DEFAULT NULL,
   `connent` varchar(255) DEFAULT NULL COMMENT '内容',
   `publisher` varchar(50) DEFAULT NULL COMMENT '发布人',
   `modifier` varchar(50) DEFAULT NULL COMMENT '修改人',
@@ -45,4 +46,4 @@ CREATE TABLE `reply` (
   `created_at` timestamp NULL DEFAULT NULL COMMENT '创建时间',
   `updated_at` timestamp NULL DEFAULT NULL COMMENT '修改时间',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
