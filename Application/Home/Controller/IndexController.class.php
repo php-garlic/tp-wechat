@@ -23,7 +23,9 @@ class IndexController extends Controller
         ];
         $app = new Application($options);
 //        dump($app);
-
+        $response = $app->server->serve();
+// 将响应输出
+        $response->send();
         $signature  = $_GET["signature"];
         $timestamp  = $_GET["timestamp"];
         $nonce      = $_GET["nonce"];

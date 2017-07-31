@@ -297,3 +297,20 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-08-01T03:00:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant CURLOPT_IPRESOLVE - assumed 'CURLOPT_IPRESOLVE' E:\www\tp-wechat\vendor\overtrue\wechat\src\Core\Http.php 第 74 行.
+NOTIC: [8] Use of undefined constant CURL_IPRESOLVE_V4 - assumed 'CURL_IPRESOLVE_V4' E:\www\tp-wechat\vendor\overtrue\wechat\src\Core\Http.php 第 74 行.
+NOTIC: [8] Undefined index: signature E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: timestamp E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: nonce E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: echostr E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
