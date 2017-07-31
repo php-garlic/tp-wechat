@@ -1,0 +1,299 @@
+[ 2017-08-01T02:12:09+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.107006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037002s ]
+NOTIC: [8] Undefined index: signature E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: timestamp E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: nonce E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: echostr E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.035002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036002s ]
+
+[ 2017-08-01T02:13:07+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-01T02:13:27+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T02:17:43+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-01T02:19:08+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(E:\www\tp-wechat\Application\Home\Controller/vendor/autoload.php): failed to open stream: No such file or directory E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [2] include(): Failed opening 'E:\www\tp-wechat\Application\Home\Controller/vendor/autoload.php' for inclusion (include_path='.;C:\php\pear') E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 4 行.
+
+[ 2017-08-01T02:19:09+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(E:\www\tp-wechat\Application\Home\Controller/vendor/autoload.php): failed to open stream: No such file or directory E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [2] include(): Failed opening 'E:\www\tp-wechat\Application\Home\Controller/vendor/autoload.php' for inclusion (include_path='.;C:\php\pear') E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 4 行.
+
+[ 2017-08-01T02:19:10+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(E:\www\tp-wechat\Application\Home\Controller/vendor/autoload.php): failed to open stream: No such file or directory E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [2] include(): Failed opening 'E:\www\tp-wechat\Application\Home\Controller/vendor/autoload.php' for inclusion (include_path='.;C:\php\pear') E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 4 行.
+
+[ 2017-08-01T02:25:10+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T02:25:11+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-01T02:25:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-01T02:25:20+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-01T02:25:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: app E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: signature E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: timestamp E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: nonce E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: echostr E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-01T02:25:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: app E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: signature E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: timestamp E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: nonce E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: echostr E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T02:25:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: signature E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: timestamp E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: nonce E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: echostr E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-01T02:34:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T02:37:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T02:39:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-01T02:39:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-01T02:39:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-01T02:40:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.057003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Class 'EasyWeChat\Foundation\Application' not found
+
+[ 2017-08-01T02:40:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'EasyWeChat\Foundation\Application' not found
+
+[ 2017-08-01T02:40:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'EasyWeChat\Foundation\Application' not found
+
+[ 2017-08-01T02:40:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Class 'EasyWeChat\Foundation\Application' not found
+
+[ 2017-08-01T02:42:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'EasyWeChat\Foundation\Application' not found
+
+[ 2017-08-01T02:42:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Class 'EasyWeChat\Foundation\Application' not found
+
+[ 2017-08-01T02:42:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'EasyWeChat\Foundation\Application' not found
+
+[ 2017-08-01T02:45:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CURLOPT_IPRESOLVE - assumed 'CURLOPT_IPRESOLVE' E:\www\tp-wechat\vendor\overtrue\wechat\src\Core\Http.php 第 74 行.
+NOTIC: [8] Use of undefined constant CURL_IPRESOLVE_V4 - assumed 'CURL_IPRESOLVE_V4' E:\www\tp-wechat\vendor\overtrue\wechat\src\Core\Http.php 第 74 行.
+NOTIC: [8] Undefined index: signature E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: timestamp E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: nonce E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: echostr E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T02:45:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CURLOPT_IPRESOLVE - assumed 'CURLOPT_IPRESOLVE' E:\www\tp-wechat\vendor\overtrue\wechat\src\Core\Http.php 第 74 行.
+NOTIC: [8] Use of undefined constant CURL_IPRESOLVE_V4 - assumed 'CURL_IPRESOLVE_V4' E:\www\tp-wechat\vendor\overtrue\wechat\src\Core\Http.php 第 74 行.
+NOTIC: [8] Undefined index: signature E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: timestamp E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: nonce E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: echostr E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T02:48:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CURLOPT_IPRESOLVE - assumed 'CURLOPT_IPRESOLVE' E:\www\tp-wechat\vendor\overtrue\wechat\src\Core\Http.php 第 74 行.
+NOTIC: [8] Use of undefined constant CURL_IPRESOLVE_V4 - assumed 'CURL_IPRESOLVE_V4' E:\www\tp-wechat\vendor\overtrue\wechat\src\Core\Http.php 第 74 行.
+NOTIC: [8] Undefined index: signature E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: timestamp E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: nonce E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: echostr E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
