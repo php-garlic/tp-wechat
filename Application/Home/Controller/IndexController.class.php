@@ -31,8 +31,11 @@ class IndexController extends Controller
                     return '收到事件消息';
                     break;
                 case 'text':
-                    $res = D('Text')->where('keywords = '.''.$message->Content.'')->find();
-                    return $text = new Text(['content' => $res->content]);
+                    $res = D('Text')->where("keywords = '".$message->Content."'")->find();
+                    if (!$res) {
+                        return 'za';
+                    }
+                    return $text = new Text(['content' => $res['connent']]);
                     break;
                 case 'image':
                     return '收到图片消息';
