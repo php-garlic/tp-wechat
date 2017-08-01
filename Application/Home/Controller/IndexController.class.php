@@ -10,6 +10,13 @@ class IndexController extends Controller
 
     public function index()
     {
+
+
+    }
+
+
+    public function server()
+    {
         $options = [
             'debug' => true,
             'app_id' => 'wxe07339320208362c',
@@ -61,6 +68,5 @@ class IndexController extends Controller
         });
         $response = $server->serve();
         $response->send();
-
     }
 }
