@@ -2,7 +2,6 @@
 namespace Home\Controller;
 
 use Think\Controller;
-use Home\Model\TextModel;
 use EasyWeChat\Message\Text;
 use EasyWeChat\Foundation\Application;
 
@@ -32,7 +31,7 @@ class IndexController extends Controller
                     return '收到事件消息';
                     break;
                 case 'text':
-                    $res = D('Text')->where('keywords = '.$message->Content)->select();
+                    $res = D('Text')->where('keywords = '.''.$message->Content.'')->find();
                     return $text = new Text(['content' => $res->content]);
                     break;
                 case 'image':
