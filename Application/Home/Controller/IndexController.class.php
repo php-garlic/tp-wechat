@@ -3,7 +3,7 @@ namespace Home\Controller;
 
 use EasyWeChat\Foundation\Application;
 use Think\Controller;
-
+use EasyWeChat\Message\Text;
 
 class IndexController extends Controller
 {
@@ -31,7 +31,7 @@ class IndexController extends Controller
                     return '收到事件消息';
                     break;
                 case 'text':
-                    return '收到文字消息'.$userApi->get($message->FromUserName)->nickname;
+                    return $text = new Text(['content' => '您好！overtrue。']);
                     break;
                 case 'image':
                     return '收到图片消息';
