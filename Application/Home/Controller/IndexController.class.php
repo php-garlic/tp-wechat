@@ -24,13 +24,14 @@ class IndexController extends Controller
 
         $app = new Application($options);
         $server = $app->server;
-        $server->setMessageHandler(function ($message) {
+        $userApi = $app->user;
+        $server->setMessageHandler(function ($message) use ( $userApi ) {
             switch ($message->MsgType) {
                 case 'event':
                     return '收到事件消息';
                     break;
                 case 'text':
-                    return '收到文字消息';
+                    return '收到文字消息'.$userApi->get($message->FromUserName)->nickname;
                     break;
                 case 'image':
                     return '收到图片消息';
