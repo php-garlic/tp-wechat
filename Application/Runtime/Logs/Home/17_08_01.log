@@ -1372,3 +1372,20 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
 ERR: syntax error, unexpected ',', expecting ']'
 
+[ 2017-08-01T20:37:46+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+

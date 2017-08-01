@@ -71,18 +71,18 @@ class IndexController extends Controller
         $response->send();
     }
 
-
+    //测试号
     public function test()
     {
 
         $options = [
-            'debug' => true,
-            'app_id' => 'wxe07339320208362c',
-            'secret' => '4676228912b84ff8e157a1b42dad2657',
-            'token' => 'dasuan',
-            'log' => [
+            'debug'  => true,
+            'app_id' => C('Appid'),
+            'secret' => C('AppSecret'),
+            'token'  => C('Token'),
+            'log'    => [
                 'level' => 'debug',
-                'file' => '/tmp/easywechat.log',
+                'file'  => '/tmp/easywechat.log',
             ],
 
         ];
