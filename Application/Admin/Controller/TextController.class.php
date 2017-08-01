@@ -55,19 +55,15 @@ class TextController extends Controller
     //修改页
     public function edit()
     {
-        if ( IS_AJAX ) {
-
-            $res = D('Text')->find(I('get.id'));
-            //判断是否存在
-            if ($res) {
-                $this->assign('text', $res);
-                $this->display('Text/edit');
-            } else {
-                $this->error('没有找到相关信息！');
-            }
+        $res = D('Text')->find(I('get.id'));
+        //判断是否存在
+        if ($res) {
+            $this->assign('text', $res);
+            $this->display('Text/edit');
         } else {
-            $this->ajaxReturn( $this->msg(0, '错误！非法请求！') );
+            $this->error('没有找到相关信息！');
         }
+
     }
 
     //更新

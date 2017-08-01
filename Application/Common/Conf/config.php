@@ -9,4 +9,6 @@ return array(
     'DB_PWD'                =>  'dasuan9464',          // 密码
     'DB_PORT'               =>  '3306',        // 端口
     // 'DB_PREFIX'             =>  '',    // 数据库表前缀
+
+    'LOAD_EXT_CONFIG' => 'config_web', // 加载扩展配置文件
 );

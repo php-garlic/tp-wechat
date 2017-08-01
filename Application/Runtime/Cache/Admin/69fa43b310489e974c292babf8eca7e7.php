@@ -11,7 +11,7 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="format-detection" content="telephone=no">
-        <link rel="stylesheet" href="/Public/templates/admin/css/x-admin.css" media="all">
+        <link rel="stylesheet" href="/tp-wechat/Public/templates/admin/css/x-admin.css" media="all">
     </head>
     <body>
         <div class="x-body">
@@ -194,8 +194,8 @@
                 </p>
             </div>
         </div>
-        <script src="/Public/templates/admin/lib/layui/layui.js" charset="utf-8"></script>
-        <script src="/Public/templates/admin/js/x-admin.js"></script>
+        <script src="/tp-wechat/Public/templates/admin/lib/layui/layui.js" charset="utf-8"></script>
+        <script src="/tp-wechat/Public/templates/admin/js/x-admin.js"></script>
 
     </body>
 </html>

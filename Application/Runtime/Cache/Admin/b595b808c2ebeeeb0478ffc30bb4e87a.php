@@ -12,7 +12,7 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="format-detection" content="telephone=no">
-        <link rel="stylesheet" href="/Public/templates/admin/css/x-admin.css" media="all">
+        <link rel="stylesheet" href="/tp-wechat/Public/templates/admin/css/x-admin.css" media="all">
     </head>
     <body>
         <div class="layui-layout layui-layout-admin">
@@ -22,7 +22,7 @@
                         X-admin v1.0
                     </a>
                     <ul class="layui-nav" lay-filter="">
-                      <li class="layui-nav-item"><img src="/Public/templates/admin/images/logo.png" class="layui-circle" style="border: 2px solid #A9B7B7;" width="35px" alt=""></li>
+                      <li class="layui-nav-item"><img src="/tp-wechat/Public/templates/admin/images/logo.png" class="layui-circle" style="border: 2px solid #A9B7B7;" width="35px" alt=""></li>
                       <li class="layui-nav-item">
                         <a href="javascript:;">admin</a>
                         <dl class="layui-nav-child"> <!-- 二级菜单 -->
@@ -50,7 +50,7 @@
                             </a>
                             <dl class="layui-nav-child">
                                 <dd class="">
-                                    <a href="javascript:;" _href="/admin.php?c=Cate">
+                                    <a href="javascript:;" _href="/tp-wechat/admin.php?c=Cate">
                                         <cite>菜单列表</cite>
                                     </a>
                                 </dd>
@@ -62,12 +62,12 @@
                             </a>
                             <dl class="layui-nav-child">
                                 <dd class="">
-                                    <a href="javascript:;" _href="/admin.php?c=Text">
+                                    <a href="javascript:;" _href="/tp-wechat/admin.php?c=Text">
                                         <cite>文本自动回复</cite>
                                     </a>
                                 </dd>
                                 <dd class="">
-                                    <a href="javascript:;" _href="/admin.php?c=ImgText">
+                                    <a href="javascript:;" _href="/tp-wechat/admin.php?c=ImgText">
                                         <cite>图文消息</cite>
                                     </a>
                                 </dd>
@@ -79,7 +79,7 @@
                             </a>
                             <dl class="layui-nav-child">
                                 <dd class="">
-                                    <a href="javascript:;" _href="/admin.php?c=Member">
+                                    <a href="javascript:;" _href="/tp-wechat/admin.php?c=Member">
                                         <cite>粉丝列表</cite>
                                     </a>
                                 </dd>
@@ -91,7 +91,7 @@
                             </a>
                             <dl class="layui-nav-child">
                                 <dd class="">
-                                    <a href="javascript:;" _href="/admin.php?c=Admin">
+                                    <a href="javascript:;" _href="/tp-wechat/admin.php?c=Admin">
                                         <cite>管理员列表</cite>
                                     </a>
                                 </dd>
@@ -104,13 +104,13 @@
                             </a>
                             <dl class="layui-nav-child">
                                 <dd class="">
-                                    <a href="javascript:;" _href="/admin.php?c=Set">
+                                    <a href="javascript:;" _href="/tp-wechat/admin.php?c=Set">
                                         <cite>系统设置</cite>
                                     </a>
                                 </dd>
 
                                 <dd class="">
-                                    <a href="javascript:;" _href="/admin.php?c=Set&a=setLog">
+                                    <a href="javascript:;" _href="/tp-wechat/admin.php?c=Set&a=setLog">
                                         <cite>系统日志</cite>
                                     </a>
                                 </dd>
@@ -140,8 +140,8 @@
             <div class="site-mobile-shade">
             </div>
         </div>
-        <script src="/Public/templates/admin/lib/layui/layui.js" charset="utf-8"></script>
-        <script src="/Public/templates/admin/js/x-admin.js"></script>
+        <script src="/tp-wechat/Public/templates/admin/lib/layui/layui.js" charset="utf-8"></script>
+        <script src="/tp-wechat/Public/templates/admin/js/x-admin.js"></script>
 
     </body>
 </html>
