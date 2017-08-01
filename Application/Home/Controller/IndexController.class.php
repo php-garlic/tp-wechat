@@ -1,9 +1,10 @@
 <?php
 namespace Home\Controller;
 
-use EasyWeChat\Foundation\Application;
 use Think\Controller;
+use Home\Model\TextModel;
 use EasyWeChat\Message\Text;
+use EasyWeChat\Foundation\Application;
 
 class IndexController extends Controller
 {
@@ -31,7 +32,8 @@ class IndexController extends Controller
                     return '收到事件消息';
                     break;
                 case 'text':
-                    return $text = new Text(['content' => '您好！overtrue。']);
+                    $res = M('Text')->where('keywords = '.$message->Content)->find();
+                    return $text = new Text(['content' => $res->content]);
                     break;
                 case 'image':
                     return '收到图片消息';
