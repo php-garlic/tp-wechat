@@ -121,7 +121,7 @@
                                 <span class='x-red'>*</span>URL(服务器地址)
                             </label>
                             <div class="layui-input-block">
-                                <input type="text" name="title" autocomplete="off" placeholder="URL(服务器地址)"
+                                <input type="text" name="server_url" autocomplete="off" placeholder="URL(服务器地址)"
                                 class="layui-input">
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                                 <span class='x-red'>*</span>公众号名称
                             </label>
                             <div class="layui-input-block">
-                                <input type="text" name="title" autocomplete="off" placeholder="公众号名称"
+                                <input type="text" name="wechat_name" autocomplete="off" placeholder="公众号名称"
                                 class="layui-input">
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                                 <span class='x-red'>*</span>Token
                             </label>
                             <div class="layui-input-block">
-                                <input type="text" name="title" autocomplete="off" placeholder="微信公众号平台获取"
+                                <input type="text" name="Token" autocomplete="off" placeholder="微信公众号平台获取"
                                 class="layui-input">
                             </div>
                         </div>
@@ -149,7 +149,7 @@
                                 <span class='x-red'>*</span>AppID
                             </label>
                             <div class="layui-input-block">
-                                <input type="text" name="title" autocomplete="off" placeholder="微信公众号平台获取"
+                                <input type="text" name="Appid" autocomplete="off" placeholder="微信公众号平台获取"
                                 class="layui-input">
                             </div>
                         </div>
@@ -158,7 +158,7 @@
                                 <span class='x-red'>*</span>AppSecret
                             </label>
                             <div class="layui-input-block">
-                                <input type="text" name="title" autocomplete="off" placeholder="微信公众号平台获取"
+                                <input type="text" name="AppSecret" autocomplete="off" placeholder="微信公众号平台获取"
                                 class="layui-input">
                             </div>
                         </div>
@@ -323,7 +323,17 @@
              //监听提交
               form.on('submit(*)', function(data){
                 console.log(data);
+
                 //发异步，把数据提交给php
+                $.ajax({
+                    url:"__APP__?c=Set&a=updateSet",
+                    type:'post',
+                    datatype:'json',
+                    data:{'json':JSON.stringify(data.field)},
+                    success:function(res){
+                        console.log(res);
+                    }
+                });
                 layer.alert("保存成功", {icon: 6});
                 return false;
               });
