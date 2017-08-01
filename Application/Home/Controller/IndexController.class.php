@@ -13,7 +13,7 @@ class IndexController extends Controller
         $options = [
             'debug' => true,
             'app_id' => 'wxe07339320208362c',
-            'secret' => '79a4a901a0f2deb9aeece8e11877927d',
+            'secret' => '4676228912b84ff8e157a1b42dad2657',
             'token' => 'dasuan',
             'log' => [
                 'level' => 'debug',
