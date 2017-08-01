@@ -1363,3 +1363,12 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
 
+[ 2017-08-01T20:37:18+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+ERR: syntax error, unexpected ',', expecting ']'
+

@@ -22,7 +22,7 @@ class IndexController extends Controller
             'debug'  => true,
             'app_id' => C('Appid'),
             'secret' => C('AppSecret'),
-            'token'  => C('Token'),,
+            'token'  => C('Token'),
             'log'    => [
                 'level' => 'debug',
                 'file'  => '/tmp/easywechat.log',
