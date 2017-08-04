@@ -90,7 +90,7 @@ class IndexController extends Controller
         $app = new Application($options);
         $server = $app->server;
         $userApi = $app->user;
-        $server->setMessageHandler(function ($message) use ($userApi) {
+        $server->setMessageHandler(function ($message) use ( $userApi ) {
             switch ($message->MsgType) {
                 case 'event':
                     return '收到事件消息';
@@ -100,7 +100,7 @@ class IndexController extends Controller
                     if (!$res) {
                         return 'za';
                     }
-                    return $text = new Text( ['content' => $res['connent'].$userApi->get( $message->FromUserName )->nickname ]);
+                    return $text = new Text( ['content' => $res['connent'].$userApi->get( $message->FromUserName ) ]);
                     break;
                 case 'image':
                     return '收到图片消息';
