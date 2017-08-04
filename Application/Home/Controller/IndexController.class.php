@@ -100,7 +100,7 @@ class IndexController extends Controller
                     if (!$res) {
                         return 'za';
                     }
-                    return $text = new Text(['content' => $res['connent']]);
+                    return $userApi->get($message->FromUserName)->nickname;
                     break;
                 case 'image':
                     return '收到图片消息';
