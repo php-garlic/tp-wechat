@@ -43,7 +43,7 @@ class IndexController extends Controller
                     if (!$res) {
                         return 'za';
                     }
-                    return $text = new Text( ['content' => $res['connent'].$userApi->get( $message->FromUserName )->nickname ]);
+                    return $text = new Text(['content' => $res['connent']]);
                     break;
                 case 'image':
                     return '收到图片消息';
@@ -77,8 +77,8 @@ class IndexController extends Controller
 
         $options = [
             'debug'  => true,
-            'app_id' => C('Appid'),
-            'secret' => C('AppSecret'),
+            'app_id' => 'wxbb072f64ecf059ba',
+            'secret' => 'd4624c36b6795d1d99dcf0547af5443d',
             'token'  => C('Token'),
             'log'    => [
                 'level' => 'debug',
@@ -100,7 +100,7 @@ class IndexController extends Controller
                     if (!$res) {
                         return 'za';
                     }
-                    return $text = new Text( ['content' => $res['connent'].$userApi->get( $message->FromUserName ) ]);
+                    return $text = new Text(['content' => $res['connent'].$userApi->get($message->FromUserName)->nickname]);
                     break;
                 case 'image':
                     return '收到图片消息';
