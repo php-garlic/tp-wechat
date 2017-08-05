@@ -6,17 +6,10 @@ use EasyWeChat\Message\Text;
 use EasyWeChat\Foundation\Application;
 
 class IndexController extends Controller
-{
-
-    public function index()
-    {
-
-        $this->show('hello word');
-
-    }
-
-
-    public function server()
+{   
+    public $app;
+    
+    public function __construct()
     {
         $options = [
             'debug'  => true,
@@ -30,7 +23,27 @@ class IndexController extends Controller
 
         ];
 
-        $app = new Application($options);
+        $this->app = new Application($options);
+         
+    }
+    
+    public function users()
+    {
+        $user = $this->app->user->lists();
+        return $user;
+    }
+
+    public function index()
+    {
+
+        $this->show('hello word');
+
+    }
+
+
+    public function server()
+    {
+        
         $server = $app->server;
         $userApi = $app->user;
         $server->setMessageHandler(function ($message) use ( $userApi ) {
@@ -93,7 +106,7 @@ class IndexController extends Controller
         $server->setMessageHandler(function ($message) use ( $userApi ) {
             switch ($message->MsgType) {
                 case 'event':
-                    return '收到事件消息';
+                    return 'Hi 欢迎关注！';
                     break;
                 case 'text':
                     $res = D('Text')->where("keywords = '".$message->Content."'")->find();

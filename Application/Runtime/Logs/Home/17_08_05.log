@@ -351,3 +351,200 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
+[ 2017-08-05T12:53:31+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-08-05T12:54:34+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-08-05T12:54:35+08:00 ] ::1 /tp-wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-08-05T12:55:14+08:00 ] ::1 /tp-wechat/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-08-05T12:56:06+08:00 ] ::1 /tp-wechat/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-08-05T12:56:49+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-08-05T12:58:43+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-08-05T12:58:45+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-08-05T13:00:25+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=server
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-08-05T13:02:33+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=server
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2017-08-05T13:03:07+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-08-05T13:03:09+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-08-05T13:03:10+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-08-05T13:03:10+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-08-05T13:03:11+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Trying to get property of non-object E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-08-05T13:03:12+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=server
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Home\Controller\IndexController::__construct() must be an instance of EasyWeChat\Foundation\Application, none given, called in E:\www\tp-wechat\ThinkPHP\Common\functions.php on line 681 and defined E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: wechat E:\www\tp-wechat\Application\Home\Controller\IndexController.class.php 第 14 行.
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2017-08-05T13:05:16+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2017-08-05T13:05:17+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2017-08-05T13:05:18+08:00 ] ::1 /tp-wechat/index.php?m=home&c=Index&a=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
