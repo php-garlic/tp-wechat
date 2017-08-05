@@ -46,6 +46,7 @@ class IndexController extends Controller
         
         $server = $app->server;
         $userApi = $app->user;
+        return $app->user->lists();
         $server->setMessageHandler(function ($message) use ( $userApi ) {
             switch ($message->MsgType) {
                 case 'event':
